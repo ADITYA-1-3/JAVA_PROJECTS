@@ -1,5 +1,3 @@
-package ExerciseProblems;
-
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.FileNotFoundException;
