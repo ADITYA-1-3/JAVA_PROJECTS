@@ -1,16 +1,18 @@
+package ExerciseProblems;
+
+import javax.sound.sampled.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
-import javax.sound.sampled.*;
 
 public class Music{
 
     public static void main(String[] args) {
 
-        // How to PLAY AUDIO with Java (.wav, .au, .aiff)
+    
 
-        String filePath = "song.wav";
+        String filePath = "D:\\song.wav";
         File file = new File(filePath);
 
         try(Scanner scanner = new Scanner(System.in);
